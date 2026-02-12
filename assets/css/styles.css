@@ -36,11 +36,12 @@ h2 {
 h3 {
   font-size: 16px;
   text-align: right;
+  color:#e6e6e6
 }
 
 h3 a:link,
-	h3: a:visited {
-  color: #ec1e26; 
+	h3: a: visited {
+  color: white;
   text-decoration: none;
 }
 
@@ -49,14 +50,14 @@ h3 a:hover {
 }
 
 .background-Image {
-  background-image: url(PurrTea01);
-  width: 400px;
-  height: 400px;
+  background-image: url(../img/PurrTea01.png);
+  width: 854px;
+  height: 821px;
   margin: 64px auto;
 }
 
 .background-Image:hover {
-  background-image: url(PurrTea02);
+  background-image: url(../img/PurrTea02.png);
   cursor: crosshair;
 }
 * {
