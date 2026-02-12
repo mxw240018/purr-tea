@@ -1,5 +1,64 @@
 /* styles.css */
+body {
+  background-color: red;
+  font-family: Helvetica, Arial, sans-serif;
+}
 
+h1 {
+  color: black;
+  font-size: 48px;
+  text-align: center;
+}
+
+.text {
+  width: 50%;
+  margin: 96px auto;
+}
+
+.text * {
+  display: inline-block;
+  width: 48%;
+  margin: 0;
+  padding: 0;
+  vertical-algin: middle;
+}
+
+h2 {
+  color: #e6e6e6;
+  font-size: 40px;
+  text-align: left;
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900px;
+  font-style: normal;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: right;
+}
+
+h3 a:link,
+	h3: a:visited {
+  color: #ec1e26; 
+  text-decoration: none;
+}
+
+h3 a:hover {
+  color: white;
+}
+
+.background-Image {
+  background-image: url(PurrTea01);
+  width: 400px;
+  height: 400px;
+  margin: 64px auto;
+}
+
+.background-Image:hover {
+  background-image: url(PurrTea02);
+  cursor: crosshair;
+}
 * {
 	font-family: Arial;
 }
