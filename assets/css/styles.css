@@ -1,13 +1,17 @@
 /* styles.css */
 body {
   background-color: red;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Playwrite NZ Basic", cursive;
 }
 
 h1 {
   color: black;
   font-size: 48px;
   text-align: center;
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
 .text {
@@ -29,24 +33,30 @@ h2 {
   text-align: left;
   font-family: "Playwrite NZ Basic", cursive;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 900;
   font-style: normal;
 }
 
 h3 {
   font-size: 16px;
   text-align: right;
-  color:#e6e6e6
+  color:#e6e6e6;
+  font-family: "Playwrite NZ Basic", cursive;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
 }
 
-h3 a:link,
-h3: a:visited {
-  color: white;
+
+h3 a:link
+h3 a:visited {
+  color: #e6e6e6
+    
   text-decoration: none;
 }
 
 h3 a:hover {
-  color: white;
+  color: green;
 }
 
 .background-Image {
@@ -59,7 +69,4 @@ h3 a:hover {
 .background-Image:hover {
   background-image: url(../img/PurrTea02.png);
   cursor: crosshair;
-}
-* {
-	font-family: Arial;
 }
